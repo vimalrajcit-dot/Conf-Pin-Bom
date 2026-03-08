@@ -126,7 +126,7 @@ def format_excel(output_file, part_names):
 # -------------------------------------------------------
 
 uploaded_bom = st.file_uploader("Upload BOM Excel", type=["xlsx"])
-uploaded_config = st.file_uploader("Upload Configuration Excel", type=["xlsx"])
+uploaded_config = st.file_uploader("Upload Pin+Configuration Excel", type=["xlsx"])
 
 if uploaded_bom and uploaded_config:
 
